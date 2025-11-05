@@ -1,0 +1,52 @@
+{
+  "name": "dev-auto-clear-cache",
+  "version": "0.1.1",
+  "description": "Automatically clear development and browser caches (for local dev and browsers).",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "dev-auto-clear-cache": "./bin/dev-auto-clear-cache.js"
+  },
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "bin",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "lint": "echo 'no lint configured'",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "cache",
+    "clear-cache",
+    "developer",
+    "cli",
+    "browser",
+    "service-worker",
+    "indexeddb",
+    "localstorage"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "vitest": "^1.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saisiddeswar/dev-auto-clear-cache.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saisiddeswar/dev-auto-clear-cache/issues"
+  },
+  "homepage": "https://github.com/saisiddeswar/dev-auto-clear-cache#readme"
+}
