@@ -1,6 +1,6 @@
 {
   "name": "dev-auto-clear-cache",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Automatically clear development and browser caches (for local dev and browsers).",
   "license": "MIT",
   "type": "module",

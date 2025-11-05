@@ -1,9 +1,9 @@
-export { clearCache } from './node';
 export { clearBrowserCache } from './browser';
+export { clearCache } from './node';
 
 // Types
-export type { CacheOptions, CacheRemovalResult } from './node';
 export type { BrowserCacheOptions, BrowserCacheResult } from './browser';
+export type { CacheOptions, CacheRemovalResult } from './node';
 
 // Default export convenience
 declare const _default: {
