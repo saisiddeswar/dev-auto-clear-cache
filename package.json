@@ -1,11 +1,11 @@
 {
-  "name": "dev-auto-clear-cache",
-  "version": "0.1.2",
+  "name": "cache-cleaner",
+  "version": "0.1.0",
   "description": "Automatically clear development and browser caches (for local dev and browsers).",
   "license": "MIT",
   "type": "module",
   "bin": {
-    "dev-auto-clear-cache": "./bin/dev-auto-clear-cache.js"
+    "cache-cleaner": "./bin/cache-cleaner.js"
   },
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
@@ -43,10 +43,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/saisiddeswar/dev-auto-clear-cache.git"
+    "url": "https://github.com/saisiddeswar/cache-cleaner.git"
   },
   "bugs": {
-    "url": "https://github.com/saisiddeswar/dev-auto-clear-cache/issues"
+    "url": "https://github.com/saisiddeswar/cache-cleaner/issues"
   },
-  "homepage": "https://github.com/saisiddeswar/dev-auto-clear-cache#readme"
+  "homepage": "https://github.com/saisiddeswar/cache-cleaner#readme"
 }
